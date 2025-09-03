@@ -1,0 +1,6 @@
+name: PistonEntityCollisions
+version: "1.0.0"
+api: ["1.0.0"]
+author: AlzhaKya
+description: Hackily adds entity collision to pistons
+main: org.alzhakya.PistonEntityCollisions

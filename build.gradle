@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = "PistonEntityCollisions"
+version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(files("lib/patched.jar"))
+
+}
+
+test {
+    useJUnitPlatform()
+}
